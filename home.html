@@ -4,6 +4,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Demo Law Firm 2</title>
+ <link href="./src/output.css" rel="stylesheet">
+ <script src="https://cdn.tailwindcss.com"></script> 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body class="bg-white text-gray-900">
@@ -47,8 +49,8 @@
   </header>
 
   <!-- Hero Section -->
-  <section class="relative bg-gray-900 text-white py-32 bg-cover bg-center" style="background-image: url('./assets/images/slide-2.jpg');">
-    <div class="absolute inset-0 bg-black bg-opacity-60"></div>
+  <section class="relative  text-white py-32 bg-cover bg-center" style="background-image: url('./assets/images/slide-2.jpg');">
+    <div class="absolute inset-0  bg-opacity-60"></div>
     <div class="relative z-10 max-w-3xl mx-auto px-4 text-center">
       <h1 class="text-5xl font-bold mb-4">SOLID EXPERIENCE</h1>
       <p class="text-lg font-medium mb-2">Extensive Resources And Commitment To Client</p>
@@ -102,6 +104,274 @@
   <button class="w-3 h-3 rounded-full bg-gray-400"></button>
 </div>
 
+<section class="bg-white text-gray-800 px-8 py-16 md:flex md:items-center md:justify-between">
+  <div class="md:w-1/2 space-y-6">
+    <h1 class="text-4xl font-bold leading-tight">
+      Global Service Provided By Exceptional Attorneys
+    </h1>
+    <p class="text-gray-600">
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed imperdiet libero id nisi euismod, sed porta est consectetur. Vestibulum auctor felis eget orci semper vestibulum. Pellentesque ultricies nibh gravida, accumsan libero luctus, molestie nunc. In nibh ipsum.
+    </p>
+    <div>
+      <p class="font-semibold">John Doe – CEO & Founder</p>
+      <img src="./assets/images/signature.png"class="h-12 mt-2">
+    </div>
+  </div>
+  <div class="md:w-1/2 mt-10 md:mt-0">
+    <img src="./assets/images/generic-1.jpg"class="w-full object-cover rounded-lg shadow-lg">
+  </div>
+</section>
+<div class="flex items-center justify-center gap-20 p-4">
+  <img src="./assets/images/logos/logo-8.png" alt="Logo 1" class="w-20 h-auto " />
+  <img src="./assets/images/logos/logo-9.png" alt="Logo 2" class="w-20 h-auto " />
+  <img src="./assets/images/logos/logo-10.png" alt="Logo 3" class="w-20 h-auto" />
+  <img src="./assets/images/logos/logo-11.png" alt="Logo 4" class="w-20 h-auto " />
+  <img src="./assets/images/logos/logo-12.png" alt="Logo 5" class="w-20 h-auto " />
+  <img src="./assets/images/logos/logo-13.png" alt="Logo 6" class="w-20 h-auto " />
+</div>
+
+<section class="text-grey-900 py-12  px-6" style="background-image: url('./assets/images/slide-1.jpg');">
+  <div class="max-w-4xl mx-auto text-center">
+    <h2 class="text-3xl font-bold mb-6">Satisfied Client Stories</h2>
+    <blockquote class="text-lg italic mb-4">
+      “Cras a elit sit a met leo accumsan volutpat. Suspendisse hendrerit vehicula leo, vel efficitur flis ultricies non. Integer aliquet ullamcorper.”
+    </blockquote>
+    <p class="text-sm font-medium text-gray-400">— John Doe, Los Angeles, CA</p>
+  </div>
+
+  <div class="mt-10 grid grid-cols-2 sm:grid-cols-4 gap-6 text-center ">
+    <div>
+      <p class="text-2xl font-bold">50<span class="text-yellow-500">+</span></p>
+      <p class="text-sm text-gray-400">Business Year</p>
+    </div>
+    <div>
+      <p class="text-2xl font-bold">240<span class="text-yellow-500">+</span></p>
+      <p class="text-sm text-gray-400">Satisfied Clients</p>
+    </div>
+    <div>
+      <p class="text-2xl font-bold">2000<span class="text-yellow-500">+</span></p>
+      <p class="text-sm text-gray-400">Successful Cases</p>
+    </div>
+    <div>
+      <p class="text-2xl font-bold">20<span class="text-yellow-500">+</span></p>
+      <p class="text-sm text-gray-400">Professional Attorneys</p>
+    </div>
+  </div>
+</section>
+
+<div class="grid grid-cols-1 md:grid-cols-2 gap-8 p-8 bg-gray-100 ">
+  <!-- FAQ Section -->
+  <div class="bg-yellow-900 px-6 py-4 rounded text-white">
+    <h2 class="text-1xl font-bold mb-4">ANY QUESTIONS</h2>
+    <h2 class="text-4xl font-bold mb-4">Frequent Asked Questions</h2>
+    <ul class="space-y-4 text-black">
+      <li class="border-b bg-white p-4 flex justify-between items-center">
+        <span>Why choose Porto Law?</span>
+        <span class="text-xl font-bold">+</span>
+      </li>
+      <li class="border-b bg-white p-4 flex justify-between items-center">
+        <span>Why do I need an attorney?</span>
+        <span class="text-xl font-bold">+</span>
+      </li>
+      <li class="border-b bg-white p-4 flex justify-between items-center">
+        <span>Cras a elit sit amet leo accumsan volutpat?</span>
+        <span class="text-xl font-bold">+</span>
+      </li>
+      <li class="border-b bg-white p-4 flex justify-between items-center">
+        <span>Integer aliquet ullamcorper dolor?</span>
+        <span class="text-xl font-bold">+</span>
+      </li>
+      <li class="border-b bg-white p-4 flex justify-between items-center">
+        <span>Efficitur felis ultrices non?</span>
+        <span class="text-xl font-bold">+</span>
+      </li>
+    </ul>
+    <button class="mt-6 px-4 py-2 bg-yellow-600 text-white rounded hover:bg-yellow-700">
+      CONTACT US
+    </button>
+  </div>
+
+  <!-- Consultation Form -->
+  <div>
+    <h2 class="text-2xl font-bold mb-4 ">Request Consultation</h2>
+    <form class="space-y-4">
+      <input type="text" placeholder="Name" class="w-full p-2 border rounded" />
+      <input type="email" placeholder="E-mail" class="w-full p-2 border rounded" />
+      <input type="tel" placeholder="Phone" class="w-full p-2 border rounded" />
+      <textarea placeholder="Message" class="w-full p-2 border rounded h-32"></textarea>
+      <button type="submit" class="w-30 px-4 py-2 bg-yellow-600 text-white rounded hover:bg-yellow-700">
+        REQUEST CONSULTATION
+      </button>
+    </form>
+  </div>
+</div>
+
+<section class="relative bg-cover bg-center bg-no-repeat h-80" style="background-image: url('./assets/images/background-2.jpg');">
+  <div class="bg-opacity-60 py-16 px-4">
+    <h2 class="text-1xl font-bold text-center text-yellow-600 mb-4">ATTORNEYS & PARTNERS</h2>
+    <h3 class="text-4xl font-bold text-center text-white mb-6">Our Legal Team</h3>
+</section>
+
+<section class="relative z-20 -mt-20 max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 px-4">
+<!-- Profile Card -->
+<div class="bg-white overflow-hidden shadow-lg rounded-lg">
+<img src="./assets/images/team-3.jpg" alt="Matt Doe" class="w-full h-64 object-cover">
+<div class="p-6 text-center">
+<a href="#" class="font-semibold text-xl text-gray-700 hover:text-yellow-500">Matt Doe</a>
+<p class="text-sm text-gray-600 mb-4">Family Law Attorney</p>
+<p class="text-gray-700 mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+<a href="#" class="font-semibold text-sm text-gray-700 hover:text-yellow-500">VIEW PROFILE →</a>
+</div>
+</div>
+
+
+<div class="bg-white overflow-hidden shadow-lg rounded-lg">
+<img src="./assets/images/team-2.jpg" alt="Janice Doe" class="w-full h-64 object-cover">
+<div class="p-6 text-center">
+<a href="#" class="font-semibold text-xl text-gray-700 hover:text-yellow-500">Janice Doe</a>
+<p class="text-sm text-gray-600 mb-4">Family Law Attorney</p>
+<p class="text-gray-700 mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+<a href="#" class="font-semibold text-sm text-gray-700 hover:text-yellow-500">VIEW PROFILE →</a>
+</div>
+</div>
+
+
+<div class="bg-white overflow-hidden shadow-lg rounded-lg">
+<img src="./assets/images/team-5.jpg" alt="Chuck Doe" class="w-full h-64 object-cover">
+<div class="p-6 text-center">
+<a href="#" class="font-semibold text-xl text-gray-700 hover:text-yellow-500">Chuck Doe</a>
+<p class="text-sm text-gray-600 mb-4">Family Law Attorney</p>
+<p class="text-gray-700 mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+<a href="#" class="font-semibold text-sm text-gray-700 hover:text-yellow-500">VIEW PROFILE →</a>
+</div>
+</div>
+
+
+<div class="bg-white overflow-hidden shadow-lg rounded-lg">
+<img src="./assets/images/team-4.jpg" alt="Ashley Doe" class="w-full h-64 object-cover">
+<div class="p-6 text-center">
+<a href="#" class="font-semibold text-xl text-gray-700 hover:text-yellow-500">Ashley Doe</a>
+<p class="text-sm text-gray-600 mb-4">Family Law Attorney</p>
+<p class="text-gray-700 mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+<a href="#" class="font-semibold text-sm text-gray-700 hover:text-yellow-500">VIEW PROFILE →</a>
+</div>
+</div>
+</section>
+
+
+<!-- Carousel dots -->
+<div class="flex justify-center mt-6 space-x-2 mb-6">
+<button class="w-3 h-3 rounded-full bg-gray-900"></button>
+<button class="w-3 h-3 rounded-full bg-gray-400"></button>
+</div>
+
+  <section class="relative w-full"> 
+    
+    <div class="mx-auto max-w-6xl px-6 py-16 md:py-24">
+      <div class="grid items-start gap-12 lg:grid-cols-2">
+        <!-- Left column -->
+        <div class="space-y-8">
+          <h1 class="font-serif text-4xl leading-tight tracking-tight md:text-6xl">
+            <span class="block">Extensive Resources</span>
+            <span class="block">and Commitment</span>
+          </h1>
+
+          <div class="space-y-4 text-gray-600">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed imperdiet libero id nisi euismod, sed porta est consectetur. Vestibulum auctor felis eget orci semper vestibulum.
+            </p>
+            <p>Pellentesque ultricies nibh gravida, accumsan libero.</p>
+          </div>
+
+          <!-- Bullet grid -->
+          <div class="grid gap-x-8 gap-y-5 sm:grid-cols-2 md:grid-cols-3">
+            <div class="flex items-center gap-3">
+              <span class="inline-flex size-7 items-center justify-center rounded-full ring-1 ring-gray-300">
+                ✓
+              </span>
+              <span class="text-sm md:text-base font-medium">Pellentesque nibh</span>
+            </div>
+
+            <div class="flex items-center gap-3">
+              <span class="inline-flex size-7 items-center justify-center rounded-full ring-1 ring-gray-300">
+                ✓
+              </span>
+              <span class="text-sm md:text-base font-medium">Ultricies nibh pellen</span>
+            </div>
+
+            <div class="flex items-center gap-3">
+              <span class="inline-flex size-7 items-center justify-center rounded-full ring-1 ring-gray-300">
+                ✓
+              </span>
+              <span class="text-sm md:text-base font-medium">Ultricies nibh</span>
+            </div>
+
+            <div class="flex items-center gap-3">
+              <span class="inline-flex size-7 items-center justify-center rounded-full ring-1 ring-gray-300">
+                ✓
+              </span>
+              <span class="text-sm md:text-base font-medium">Ultricies nibh pellen</span>
+            </div>
+
+            <div class="flex items-center gap-3">
+              <span class="inline-flex size-7 items-center justify-center rounded-full ring-1 ring-gray-300">
+                ✓
+              </span>
+              <span class="text-sm md:text-base font-medium">Pellentesque nibh</span>
+            </div>
+          </div>
+
+          <!-- Learn more link -->
+          <a href="#" class="group inline-flex items-center gap-2 text-sm font-medium text-amber-700 hover:text-amber-800">
+            LEARN MORE
+            <span class="transition-transform group-hover:translate-x-0.5">→</span>
+          </a>
+        </div>
+
+        <!-- Right column -->
+        <div class="flex flex-col items-center text-center">
+          <div class="mb-8 flex w-full items-center justify-center gap-8">
+            <span class="hidden h-px flex-1 bg-gray-200 md:block"></span>
+            <div class="relative">
+              <div class="mx-auto grid size-48 place-content-center rounded-full border border-gray-200 bg-white shadow-sm md:size-56">
+                <div class="mx-auto grid size-36 place-content-center rounded-full border border-gray-100">
+                  <span class="text-5xl text-amber-700">🏛</span>
+                </div>
+              </div>
+            </div>
+            <span class="hidden h-px flex-1 bg-gray-200 md:block"></span>
+          </div>
+
+          <h3 class="text-2xl font-semibold tracking-tight md:text-3xl">Get Legal Help</h3>
+          <p class="mt-3 max-w-md text-gray-600">
+            Lorem ipsum dolor sit a met, consectetur adipiscing elit.
+          </p>
+
+          <!-- Carousel dots -->
+          <div class="mt-8 flex items-center gap-3">
+            <span class="size-2 rounded-full bg-gray-300"></span>
+            <span class="size-2 rounded-full bg-gray-800"></span>
+            <span class="size-2 rounded-full bg-gray-300"></span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="bg-yellow-600 p-6 flex flex-col md:flex-row justify-between items-center text-white">
+  <div class="text-center md:text-left space-y-2">
+    <div>
+      <h2 class="text-lg font-bold mt-4">ARE YOU LOOKING FOR </h2>
+    <h2 class="text-4xl font-bold mt-1">Experienced Attorneys?</h2>
+    <p class="text-sm text-gray-700 mt-1">Get a free initial consultation right now</p>
+  </div>
+  
+  </div>
+  
+  <button class="mt-4 md:mt-0 bg-yellow-700 text-white px-6 py-2 rounded hover:bg-yellow-700 transition">
+    REQUEST CONSULTATION
+  </button>
+</div>
 <footer class="bg-gray-900 text-white py-12">
   <div class="max-w-7xl mx-auto px-4 grid grid-cols-1 md:grid-cols-4 gap-8">
     <div>
